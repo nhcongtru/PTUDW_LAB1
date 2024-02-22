@@ -19,10 +19,6 @@ module.exports = app;
 
 app.use("/api/contacts", contactsRouter);
 
-module.exports = app;
-
-app.use("/api/contacts", contactsRouter);
-
 
 // handle 404 response
 app.use((req, res, next) => {
